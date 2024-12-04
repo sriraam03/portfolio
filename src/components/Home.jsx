@@ -5,6 +5,7 @@ import { useTypewriter } from 'react-simple-typewriter';
 import { Link } from 'react-scroll';
 import {motion} from 'framer-motion';
 import {fadeIn} from './variants';
+import Hello from '../assets/hello.png'
 function Home() {
   const [typeEffect] = useTypewriter({
     words:['Front End Developer','React Js Developer','UI Developer'],
@@ -16,7 +17,7 @@ function Home() {
     <div name="home" className='w-full h-screen bg-gradient-to-r from-cyan-950 to-black text-white'>
         <motion.div variants={fadeIn("left",0.2)} initials="hidden" whileInView={"show"} viewport={{once: false,amount:0.7}} className='max-w-screen-2xl h-full mx-auto flex flex-col md:flex-row  justify-center items-center  px-5 md:px-3 border-pink-600'>
             <div className='h-1/3 w-full md:w-1/3 flex flex-col '>
-                <h1 className='text-5xl h-1/3 md:px-16 font-semibold md:font-bold pt-5'>Hello <span className='wave'>👋</span></h1>
+                <h1 className='text-5xl h-1/3 md:px-16 font-semibold md:font-bold pt-5 flex'>Hello <img src={Hello} alt='hello' className='wave mt-0 size-14 ml-6'></img></h1>
                 <p className='h-1/3 md:px-16 text-3xl '>I'm Sriraam
                     <br/>
                     <span className='font-semibold'>{typeEffect}</span>   

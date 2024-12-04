@@ -10,7 +10,7 @@ function Projects() {
             des: "Siya is a Health Assistant which is web-based application aimed at predicting diseases using symptom analysis.It will predict the disease and suggest the precautions with symptoms as a input"
         },
         {
-            id: 2,
+            id: 4,
             name: "CardioScope",
             href:"https://github.com/sriraam03/Siya-A-Health_Assistant",
             des: "Utilized Python libraries to develop a heart disease prediction model achieving 88% accuracy. Applied data preprocessing, exploratory analysis, and feature selection. Evaluated multiple algorithms including Logistic Regression, K-Nearest Neighbors, and Random Forest, using the Cleveland dataset from UCI."
@@ -22,10 +22,10 @@ function Projects() {
             des: "This is an advanced and versatile writing assistant designed. It provides grammar and spell check, paraphrasing capabilities, and automatic email generator, making it your go-to tool for flawless and efficient writing."
         },
         {
-            id: 4,
-            name: "Available Soon",
-            href: "https://github.com/sriraam03/Siya-A-Health_Assistant",
-            des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facilis ullam quod dignissimos quis. Sint enim autem at odit ratione reprehenderit, explicabo doloribus! Voluptate veritatis quidem quam. Ipsum, praesentium doloribus!"
+            id: 2,
+            name: "Portfolio",
+            href: "https://github.com/sriraam03/portfolio",
+            des: "My portfolio is a website built with React.js and Tailwind CSS, utilizing React Router v6 to enable easy access to multiple pages. It was designed and created entirely by myself, showcasing my skills and projects. The website is responsive and visually appealing, providing a user-friendly experience"
         },
     ]
   
