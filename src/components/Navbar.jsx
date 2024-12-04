@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Mainlogo from '../assets/main-logo-Photoroom.png'
+import Mainlogo from '../assets/sr.png'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { Link } from "react-scroll"
 const Navbar = () => {
@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <div className='text-white items-center justify-between py-5 bg-gradient-to-r from-cyan-950 to-black h-20 w-full fixed flex'>
-        <div className='w-fit'>
-            <img src={Mainlogo} className='hover:cursor-pointer h-24 md:h-32 w-40' alt="Main Logo"/>
+        <div className=''>
+            <img src={Mainlogo} className='hover:cursor-pointer h-16 md:h-16 w-24' alt="Main Logo"/>
         </div>
         <ul className='hidden md:flex text-xl px-16 gap-7'>
             {links.map(({ id, link }) => (
