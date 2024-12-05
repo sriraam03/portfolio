@@ -22,7 +22,7 @@ function Home() {
                  </motion.p>
                 
                 <div className='flex flex-row'>
-                    <motion.a href="#projects" smooth duration={500} initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5,delay:1}} smooth duration={500} offset={-80} className='group h-10 w-32 hover:cursor-pointer items-center flex gap-2  ml-28 md:ml-44 mt-4 rounded-md bg-gradient-to-r from-cyan-400 to-cyan-700 text-black '>
+                    <motion.a href="#projects" initial={{x:-100,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.5,delay:1}} smooth duration={500} offset={-80} className='group h-10 w-32 hover:cursor-pointer items-center flex gap-2  ml-28 md:ml-44 mt-4 rounded-md bg-gradient-to-r from-cyan-400 to-cyan-700 text-black '>
                         <p className='ml-3 text-xl'>Projects</p>
                         <span className='group-hover:rotate-90 duration-200'><IoIosLogOut className='size-6'/></span>
                     </motion.a>
