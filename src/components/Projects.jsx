@@ -42,7 +42,7 @@ function Projects() {
     ]
   
     return ( 
-        <div name="projects" className='min-h-screen w-full bg-gradient-to-r from-cyan-950 to-black text-white  overflow-hidden '>
+        <div id="projects" name="projects" className='min-h-screen w-full bg-gradient-to-r from-cyan-950 to-black text-white  overflow-hidden '>
             <div className='about1 md:px-64 justify-center items-center'>
                 <div className=' max-w-lg ml-28 md:ml-96'>
                     <Link to={projects} smooth duration={500} className='text-4xl mt-3'>Projects</Link>
