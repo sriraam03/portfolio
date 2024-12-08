@@ -25,7 +25,7 @@ function Contact() {
       );
   };
   return (
-    <div name="contact" className='w-full h-screen bg-gradient-to-r from-cyan-950 to-black text-white '>
+    <div name="contact" className='w-full h-screen bg-gradient-to-r from-cyan-950 to-black text-white z-0'>
         <div className='about1 flex flex-col justify-center items-center md:px-3 '>
             <div className=''>
                 <motion.p  initial={{y:100,opacity:0}} whileInView={{y:0,opacity:1}} transition={{duration:0.5,delay:0.5}}className='text-4xl mt-8'>Contact</motion.p>

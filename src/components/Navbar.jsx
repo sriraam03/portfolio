@@ -30,7 +30,7 @@ const Navbar = () => {
             {nav ? <FaTimes size={25}/> : <FaBars size={25} />}
         </div>
         {nav && (
-            <ul className='flex flex-col  w-full h-screen justify-center items-center absolute top-0 left-0 bg-gradient-to-r from-cyan-950 to-black'>
+            <ul className='flex flex-col z-100 w-full h-screen justify-center items-center absolute top-0 left-0 bg-gradient-to-r from-cyan-950 to-black'>
                 {links.map(({ id, link }) => (
                     <li key={id} className='hover:cursor-pointer text-4xl px-4 py-3 capitalize'>
                         <Link onClick={() => setNav(!nav)} to={link} smooth duration={500} offset={-80}>

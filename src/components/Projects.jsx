@@ -42,13 +42,13 @@ function Projects() {
     ]
   
     return ( 
-        <div id="projects" name="projects" className='min-h-screen w-full bg-gradient-to-r from-cyan-950 to-black text-white  overflow-hidden '>
+        <div id="projects" name="projects" className='min-h-screen w-full bg-gradient-to-r from-cyan-950 to-black text-white  overflow-hidden z-0'>
             <div className='about1 md:px-64 justify-center items-center'>
                 <div className=' max-w-lg ml-28 md:ml-96'>
                     <Link to={projects} smooth duration={500} className='text-4xl mt-3'>Projects</Link>
                 </div>
             </div>
-            <div className=' mt-6 mx-auto mb-2 grid w-[90%] gap-4 sm:mb-8 md:grid-cols-2'>
+            <div className=' mt-6 mx-auto mb-2 grid w-[90%] gap-4 sm:mb-8 md:grid-cols-2 z-1'>
                 {projects.map(({ id, name, href,des }) => (
                     <motion.div variants={durais(2.5)} initial="initial" animate="animate" key={id} className='shadow-md shadow-gray-400 border-b-cyan-950  hover:scale-100  hover:shadow-md duration-200 hover:shadow-white rounded-md px-6 py-3'>
                         <h1 className='text-2xl font-bold mt-5'>{name}</h1>
