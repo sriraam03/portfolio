@@ -42,5 +42,28 @@
   }
   
 }
+.main-logo:hover{
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide{
+  0% {
+      rotate: 0deg;
+  }
+  25%{
+    rotate: 180deg;
+  }
+  50%{
+    rotate: -180deg;
+  }
+  100%{
+    rotate: 0deg;
+  }
+}
+
+
+
 
 

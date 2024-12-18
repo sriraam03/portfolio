@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='text-white items-center justify-between py-5 bg-gradient-to-r from-cyan-950 to-black h-20 w-full fixed flex'>
         <div className=''>
-            <img src={Mainlogo} className='hover:cursor-pointer h-16 md:h-16 w-24' alt="Main Logo"/>
+            <img src={Mainlogo} className='main-logo hover:cursor-pointer h-16 md:h-16 w-24' alt="Main Logo"/>
         </div>
         <ul className='hidden md:flex text-xl px-16 gap-7'>
             {links.map(({ id, link }) => (

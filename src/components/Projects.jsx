@@ -50,7 +50,7 @@ function Projects() {
             </div>
             <div className=' mt-6 mx-auto mb-2 grid w-[90%] gap-4 sm:mb-8 md:grid-cols-2 z-1'>
                 {projects.map(({ id, name, href,des }) => (
-                    <motion.div variants={durais(2.5)} initial="initial" animate="animate" key={id} className='shadow-md shadow-gray-400 border-b-cyan-950  hover:scale-100  hover:shadow-md duration-200 hover:shadow-white rounded-md px-6 py-3'>
+                    <motion.div variants={durais(2.5)} initial="initial" animate="animate" key={id} className='project-slide shadow-md shadow-gray-400 border-b-cyan-950  hover:scale-100  hover:shadow-md duration-200 hover:shadow-white rounded-md px-6 py-3'>
                         <h1 className='text-2xl font-bold mt-5'>{name}</h1>
                         <p className=' py-3'>{des}</p>
                         <div className=''>
